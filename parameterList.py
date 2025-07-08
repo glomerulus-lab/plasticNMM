@@ -73,7 +73,7 @@ class parameters_epileptic_NMDA:
         self.omega_gamma1 = 1
         
         self.Use = 0.4
-        self.tau_d = 0.200 # 200 ms
+        self.tau_r = 0.200 # 200 ms
         self.tau_f = 0.050 # 50 ms
         self.Use_max = 0.8
 
@@ -100,7 +100,7 @@ class parameters_epileptic_NMDA:
                 
         self.btr_1 = 34
 
-        self.rho = 50
+        self.delta = 50
         self.p1 = 25
         self.r1= 1
         self.m1 = 0.0015
