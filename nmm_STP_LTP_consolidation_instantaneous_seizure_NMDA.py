@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 plt.rcParams.update({
-    "text.usetex": True,
+    "text.usetex": False,
     "font.family": "Arial",
     "font.size": 10,
      "lines.linewidth":0.5
